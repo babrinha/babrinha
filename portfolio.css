@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    cursor: url('../website/imagem/emoji.png'),auto;
+}
+
+
+
+.bod {
+    display: flex;
+    flex-direction: row;
+   cursor: url('../website/imagem/emoji.png'),auto;
+}
+
+
+.sidebar div ul li a:hover {
+    color: #8C0040;
+}
+
+.sidebar {
+    position: flex;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: white;
+    cursor: url('../website/imagem/emoji.png'),auto;
+
+}
+@media only screen and (max-width: 768px) {
+    .sidebar{
+        width: 100px;
+    }}
+@media only screen and (max-width: 768px) {
+    .sidebar div ul{
+        width: 100px;
+    }}
+@media only screen and (max-width: 768px) {
+    .sidebar div img{
+        width: 100px;
+        height: 100px;
+        padding-left: 10px;
+        }}
+@media only screen and (max-width: 768px) {
+    .sidebar .paragrafo{
+        width: 95px;
+        font-size: 10px;
+        margin-right: 1px;
+        }}
+@media only screen and (max-width: 768px) {
+    .nome{
+        font-size:5px;
+        }}
+
+
+.sidebar div ul {
+    display: relative;
+    padding-left: 30px;
+    font-size: 13px;
+    font-family: 'Comfortaa', cursive;
+    line-height: 25px;
+    margin-top: 20px;
+    color: #FE216C;
+    cursor: url('../website/imagem/emoji.png'),auto;
+}
+
+.sidebar div ul li a {
+    color: #FF0078;
+}
+
+.sidebar div img {
+    display: relative;
+    padding-left: 20px;
+    right: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    cursor: url('../website/imagem/emoji.png'),auto;
+}
+
+
+
+.paragrafo {
+    display: flex;
+    padding-left: 30px;
+    font-size: 13px;
+    color: #FF89B6;
+    font-family: 'Karla', sans-serif;
+    margin-top: 20px;
+}
+
+.nome {
+    color: #FE216C;
+    font-size: 17px;
+    display:flex;
+    padding-left: 20px;
+    font-family: 'Meow Script', cursive;
+    margin-top: 30px;
+}
+
+.footer {
+    margin-left: 280px;
+cursor: url('../website/imagem/emoji.png'),auto;
+}
+@media only screen and (max-width: 768px) {
+    .footer{
+        margin-left:35px;
+        margin-top: 1px;
+    }}
+.footer .p{
+    padding-top:5vw;
+     font-size: 13px;
+    color: #FF89B6;
+    font-family: 'Karla', sans-serif;
+    
+}
+.social-icon {
+    margin-left: 38vw;
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+}
+
+.container-1 {
+    width: 70%;
+    margin-left: 3vw;
+    margin-right: auto;
+}
+@media only screen and (max-width: 768px) {
+    .conatiner-1{
+        flex-direction: row;
+    }
+	
+}
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 110%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .galeria{
+        width:100%;
+        height: 70%;
+    }
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+}
+
+.imagem {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 0;
+    top: 0;
+    transition: all 1s;
+    margin: 1vw;
+    cursor: url('../website/imagem/emoji.png'),auto;
+}
+
+.um .imagem {
+    background-image: url("img/cat%20.png");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.dois .imagem {
+    background-image: url("img/raccoon0.png");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tres .imagem {
+    background-image: url("img/girl.png");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+.quatro .imagem {
+    background-image: url("img/poster%20amigos%20do%20joao.png");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+.cinco .imagem{
+    background-image: url("img/thekiss.png");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+.seis .imagem{
+    background-image: url("img/pagina3.jpg");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+   
+}
+.sete .imagem{
+    background-image: url("img/the%20woods.png");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+.oito .imagem{
+    background-image: url("img/pagina9e10.jpg");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    font-family: 'Pacifico', cursive;
+    color: #FF1F5C;
+    font-size:25px;
+}
+.vazio {
+    height: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.vazio p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo:hover{
+    background-color: #FFC0D2;
+    opacity: 30%;
+}
+
+.imagem:hover {
+    transform: scale(1.1);
+}
+
+.coluna {
+    margin: 2vh;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+/*<style>
+        .container-1{
+            display: flex;
+        }
+        .container-1 div{
+            border:1px;
+            padding: 10px;
+            color: black;
+            }
+        
+        .post-1{
+            flex: 1;
+            }
+        .post-2{
+            flex: 1;
+        }
+        .post-3{
+            flex: 1;
+            }
+        .container-3{
+            display: flex;
+        }
+      .container-3 div{
+             border:1px;
+            padding: 10px;
+           }
+        .post-5{
+             flex: 1;
+         }
+.container-4{
+    display: flex;
+}
+.container-4 div {
+     border:1px;
+     padding: 10px;
+}
+.post-4{
+    flex:1;
+}*/

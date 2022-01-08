@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    cursor: url('../website/imagem/pink.png'),auto;
+}
+
+.bod {
+    display: flex;
+    flex-direction: row;
+    cursor: url('../website/imagem/pink.png'),auto;
+}
+
+.sidebar div ul li a:hover {
+    color: #8C0040;
+}
+
+.sidebar {
+    position: relative;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: white;
+    cursor: url('../website/imagem/pink.png'),auto;
+
+}
+    .sidebar{
+        width: 100px;
+    }}
+@media only screen and (max-width: 768px) {
+    .sidebar div ul{
+        width: 100px;
+    }}
+@media only screen and (max-width: 768px) {
+    .sidebar div img{
+        width: 100px;
+        height: 100px;
+        padding-left: 10px;
+        }}
+@media only screen and (max-width: 768px) {
+    .sidebar .paragrafo{
+        width: 95px;
+        font-size: 10px;
+        margin-right: 1px;
+        }}
+@media only screen and (max-width: 768px) {
+    .nome{
+        font-size:5px;
+        }}
+.sidebar div ul {
+    display: relative;
+    padding-left: 30px;
+    font-size: 13px;
+    font-family: 'Comfortaa', cursive;
+    line-height: 25px;
+    margin-top: 20px;
+    color: #FE216C;
+    cursor: url('../website/imagem/pink.png'),auto;
+}
+
+.sidebar div ul li a {
+    color: #FF0078;
+}
+
+.sidebar div img {
+    display: relative;
+    padding-left: 20px;
+    right: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    cursor: url('../website/imagem/pink.png'),auto;
+}
+
+.paragrafo {
+    display: relative;
+    padding-left: 30px;
+    font-size: 13px;
+    color: #FF89B6;
+    font-family: 'Karla', sans-serif;
+    margin-top: 20px;
+}
+
+.nome {
+    color: #FE216C;
+    font-size: 17px;
+    display: relative;
+    padding-left: 20px;
+    font-family: 'Meow Script', cursive;
+    margin-top: 30px;
+}
+
+.footer {
+    margin-left: 280px;
+cursor: url('../website/imagem/pink.png'),auto;
+}
+@media only screen and (max-width: 768px) {
+    .footer{
+        margin-left:35px;
+        margin-top: 1px;
+    }}
+.footer .p{
+    padding-top:5vw;
+     font-size: 13px;
+    color: #FF89B6;
+    font-family: 'Karla', sans-serif;
+    
+}
+.social-icon {
+    margin-left: 38vw;
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+}
+
+.container-1 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+}
+
+.imagem {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 0;
+    top: 0;
+    transition: all 1s;
+    margin: 1vw;
+    cursor: url('../website/imagem/pink'),auto;
+}
+
+.um .imagem {
+    background-image: url("img/bottle.png");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dois .imagem {
+    background-image: url("img/poster%20client.jpeg");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tres .imagem {
+    background-image: url("img/Electroquanticalogo+.png");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+.quatro .imagem {
+    background-image: url("img/blenderimage2aparada.png");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+.cinco .imagem{
+    background-image: url("img/bichas%20do%20demonio.png");
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    font-family: 'Pacifico', cursive;
+    color: #FF1F5C;
+    font-size:25px;
+}
+.vazio {
+    height: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.vazio p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo:hover{
+   background-color: #FFC0D2;
+    opacity: 30%;
+}
+
+.imagem:hover {
+    transform: scale(1.1);
+}
+
+.coluna {
+    margin: 2vh;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+

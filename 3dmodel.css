@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    cursor: url('../website/imagem/folder.png'),auto;
+}
+
+.bod {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar div ul li a:hover {
+    color: #8C0040;
+}
+
+.sidebar {
+    position: relative;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: white;
+
+}
+@media only screen and (max-width: 768px) {
+    .sidebar{
+        width: 100px;
+    }}
+@media only screen and (max-width: 768px) {
+    .sidebar div ul{
+        width: 100px;
+    }}
+@media only screen and (max-width: 768px) {
+    .sidebar div img{
+        width: 100px;
+        height: 100px;
+        padding-left: 10px;
+        }}
+@media only screen and (max-width: 768px) {
+    .sidebar .paragrafo{
+        width: 95px;
+        font-size: 10px;
+        margin-right: 1px;
+        }}
+@media only screen and (max-width: 768px) {
+    .nome{
+        font-size:5px;
+        }}
+.sidebar div ul {
+    display: relative;
+    padding-left: 30px;
+    font-size: 13px;
+    font-family: 'Comfortaa', cursive;
+    line-height: 25px;
+    margin-top: 20px;
+    color: #FE216C;
+}
+
+.sidebar div ul li a {
+    color: #FF0078;
+}
+
+.sidebar div img {
+    display: relative;
+    padding-left: 20px;
+    right: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+}
+
+.paragrafo {
+    display: relative;
+    padding-left: 30px;
+    font-size: 13px;
+    color: #FF89B6;
+    font-family: 'Karla', sans-serif;
+    margin-top: 20px;
+}
+
+.nome {
+    color: #FE216C;
+    font-size: 17px;
+    display: relative;
+    padding-left: 20px;
+    font-family: 'Meow Script', cursive;
+    margin-top: 30px;
+}
+
+.footer {
+     padding-top:5vw;
+    margin-right: 7vw;
+     margin-left: 23vw;
+
+}
+@media only screen and (max-width: 768px) {
+    .footer{
+        margin-left:35px;
+        margin-top: 1px;
+    }}
+.footer .p{
+     font-size: 13px;
+    color: #FF89B6;
+    font-family: 'Karla', sans-serif;
+    
+}
+.social-icon {
+
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+}
+
+.container-1 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+@media (min-width: 770px) and (max-width : 1200px) {
+    .coluna1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.coluna3{
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna2{
+    display: flex;
+    flex-direction: row;
+    
+}}
+
+
+
+.container-1 .nome{
+    font-family: 'Pacifico', cursive;
+    font-size:15px;
+}
+
+
