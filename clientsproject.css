@@ -3,28 +3,32 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    cursor: url('../website/imagem/pink.png'),auto;
+    cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 }
+
+
 
 .bod {
     display: flex;
     flex-direction: row;
-    cursor: url('../website/imagem/pink.png'),auto;
+   cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 }
+
 
 .sidebar div ul li a:hover {
     color: #8C0040;
 }
 
 .sidebar {
-    position: relative;
+    position: flex;
     left: 0;
     width: 200px;
     height: 100%;
     background: white;
-    cursor: url('../website/imagem/pink.png'),auto;
+    cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 
 }
+@media only screen and (max-width: 768px) {
     .sidebar{
         width: 100px;
     }}
@@ -48,6 +52,8 @@
     .nome{
         font-size:5px;
         }}
+
+
 .sidebar div ul {
     display: relative;
     padding-left: 30px;
@@ -56,7 +62,7 @@
     line-height: 25px;
     margin-top: 20px;
     color: #FE216C;
-    cursor: url('../website/imagem/pink.png'),auto;
+    cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 }
 
 .sidebar div ul li a {
@@ -69,11 +75,13 @@
     right: 20px;
     padding-right: 20px;
     margin-top: 60px;
-    cursor: url('../website/imagem/pink.png'),auto;
+    cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 }
 
+
+
 .paragrafo {
-    display: relative;
+    display: flex;
     padding-left: 30px;
     font-size: 13px;
     color: #FF89B6;
@@ -84,7 +92,7 @@
 .nome {
     color: #FE216C;
     font-size: 17px;
-    display: relative;
+    display:flex;
     padding-left: 20px;
     font-family: 'Meow Script', cursive;
     margin-top: 30px;
@@ -92,7 +100,7 @@
 
 .footer {
     margin-left: 280px;
-cursor: url('../website/imagem/pink.png'),auto;
+cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 }
 @media only screen and (max-width: 768px) {
     .footer{
