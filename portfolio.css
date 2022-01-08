@@ -3,7 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    cursor: url('../website/imagem/emoji.png'),auto;
+    cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 }
 
 
@@ -11,7 +11,7 @@
 .bod {
     display: flex;
     flex-direction: row;
-   cursor: url('../website/imagem/emoji.png'),auto;
+   cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 }
 
 
@@ -25,7 +25,7 @@
     width: 200px;
     height: 100%;
     background: white;
-    cursor: url('../website/imagem/emoji.png'),auto;
+    cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 
 }
 @media only screen and (max-width: 768px) {
@@ -62,7 +62,7 @@
     line-height: 25px;
     margin-top: 20px;
     color: #FE216C;
-    cursor: url('../website/imagem/emoji.png'),auto;
+    cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 }
 
 .sidebar div ul li a {
@@ -75,7 +75,7 @@
     right: 20px;
     padding-right: 20px;
     margin-top: 60px;
-    cursor: url('../website/imagem/emoji.png'),auto;
+    cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 }
 
 
@@ -100,7 +100,7 @@
 
 .footer {
     margin-left: 280px;
-cursor: url('../website/imagem/emoji.png'),auto;
+cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 }
 @media only screen and (max-width: 768px) {
     .footer{
@@ -164,7 +164,7 @@ cursor: url('../website/imagem/emoji.png'),auto;
     top: 0;
     transition: all 1s;
     margin: 1vw;
-    cursor: url('../website/imagem/emoji.png'),auto;
+    cursor: url('../babrinha/babrinha/imagem/emoji.png'),auto;
 }
 
 .um .imagem {
