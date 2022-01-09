@@ -3,13 +3,13 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    cursor: url('../website/imagem/trash-icon.png'),auto;
+    cursor: url('imagem/trash-icon.png'),auto;
 }
 
 .bod {
     display: flex;
     flex-direction: row;
-    cursor: url('../website/imagem/trash-icon.png'),auto;
+    cursor: url('imagem/trash-icon.png'),auto;
 }
 
 .sidebar div ul li a:hover {
@@ -22,7 +22,7 @@
     width: 200px;
     height: 100%;
     background: white;
-cursor: url('../website/imagem/trash-icon.png'),auto;
+cursor: url('imagem/trash-icon.png'),auto;
 }
 @media only screen and (max-width: 768px) {
     .sidebar{
@@ -57,7 +57,7 @@ cursor: url('../website/imagem/trash-icon.png'),auto;
     line-height: 25px;
     margin-top: 20px;
     color: #FE216C;
-    cursor: url('../website/imagem/trash-icon.png'),auto;
+    cursor: url('imagem/trash-icon.png'),auto;
 }
 
 .sidebar div ul li a {
@@ -70,7 +70,7 @@ cursor: url('../website/imagem/trash-icon.png'),auto;
     right: 20px;
     padding-right: 20px;
     margin-top: 60px;
-    cursor: url('../website/imagem/trash-icon.png'),auto;
+    cursor: url('imagem/trash-icon.png'),auto;
 }
 
 .paragrafo {
@@ -95,7 +95,7 @@ cursor: url('../website/imagem/trash-icon.png'),auto;
      padding-top:5vw;
     margin-right: 7vw;
      margin-left: 23vw;
-cursor: url('../website/imagem/trash-icon.png'),auto;
+cursor: url('imagem/trash-icon.png'),auto;
 }
 @media only screen and (max-width: 768px) {
     .footer{
@@ -120,7 +120,7 @@ cursor: url('../website/imagem/trash-icon.png'),auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    cursor: url('../website/imagem/trash-icon.png'),auto;
+    cursor: url('imagem/trash-icon.png'),auto;
 }
 
 .container-1 div img {

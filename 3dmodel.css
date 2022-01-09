@@ -3,7 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    cursor: url('../website/imagem/folder.png'),auto;
+    cursor: url('imagem/folder.png'),auto;
 }
 
 .bod {

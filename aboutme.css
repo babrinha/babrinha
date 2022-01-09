@@ -3,13 +3,13 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    cursor: url('../website/imagem/Cursor-icon.png'),auto;
+    cursor: url('imagem/Cursor-icon.png'),auto;
 }
 
 .bod {
     display: flex;
     flex-direction: row;
-    cursor: url('../website/imagem/Cursor-icon.png'),auto;
+    cursor: url('imagem/Cursor-icon.png'),auto;
 }
 
 .sidebar div ul li a:hover {
@@ -22,7 +22,7 @@
     width: 200px;
     height: 100%;
     background: white;
-cursor: url('../website/imagem/Cursor-icon.png'),auto;
+cursor: url('imagem/Cursor-icon.png'),auto;
 }
 @media only screen and (max-width: 768px) {
     .sidebar{
@@ -57,7 +57,7 @@ cursor: url('../website/imagem/Cursor-icon.png'),auto;
     line-height: 25px;
     margin-top: 20px;
     color: #FE216C;
-    cursor: url('../website/imagem/Cursor-icon.png'),auto;
+    cursor: url('imagem/Cursor-icon.png'),auto;
 }
 
 .sidebar div ul li a {
@@ -94,7 +94,7 @@ cursor: url('../website/imagem/Cursor-icon.png'),auto;
      padding-top:5vw;
     margin-right: 7vw;
      margin-left: 23vw;
-cursor: url('../website/imagem/Cursor-icon.png'),auto;
+cursor: url('imagem/Cursor-icon.png'),auto;
 }
 @media only screen and (max-width: 768px) {
     .footer{
@@ -115,8 +115,8 @@ cursor: url('../website/imagem/Cursor-icon.png'),auto;
 
 .container-1 {
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 8vw;
+    margin-right: 5vw;
     display: flex;
     flex-direction: row;
    

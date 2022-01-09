@@ -3,7 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    cursor: url('../website/imagem/starfish.png'),auto;
+    cursor: url('imagem/starfish.png'),auto;
 }
 
 .bod {

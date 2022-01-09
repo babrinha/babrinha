@@ -3,7 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    cursor: url('../website/imagem/Snake.png'),auto;
+    cursor: url('imagem/Snake.png'),auto;
 }
 
 .bod {
